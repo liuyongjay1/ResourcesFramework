@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+message Row_Chapter9
+{
+    optional string key = 1;
+    optional string roundFinishCode = 2;
+    optional bool saveRound = 3;
+    optional string finishType = 4;
+    optional bool hasDialog = 5;
+    optional bool hasOption = 6;
+    optional bool hasLivelyRole = 7;
+    optional bool hasScreenEffect = 8;
+}
+
+message Table_Chapter9
+{
+    repeated Row_Chapter9 datas = 1;
+}

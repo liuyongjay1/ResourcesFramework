@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+message Row_RoundOption
+{
+    optional string key = 1;
+    optional int32 optionType = 2;
+    optional string option1 = 3;
+    optional string option1Code = 4;
+    optional string option2 = 5;
+    optional string option2Code = 6;
+    optional string option3 = 7;
+    optional string option3Code = 8;
+}
+
+message Table_RoundOption
+{
+    repeated Row_RoundOption datas = 1;
+}

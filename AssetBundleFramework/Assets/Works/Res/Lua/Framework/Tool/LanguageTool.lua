@@ -1,0 +1,2 @@
+LanguageTool = {}
+LanguageTool.CurLanguage = "chinese"

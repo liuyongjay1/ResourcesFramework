@@ -1,0 +1,1335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b8178e2e5eb5147a80f1cd654e4e53, type: 3}
+  m_Name: BundleRelation
+  m_EditorClassIdentifier: 
+  Dirs:
+  - Assets/Works/Res/AllGameSetting
+  - Assets/Works/Res/Audio
+  - Assets/Works/Res/CS_Bytes
+  - Assets/Works/Res/Font
+  - Assets/Works/Res/Lua/Code/Define
+  - Assets/Works/Res/Lua/Code
+  - Assets/Works/Res/Lua/Code/UIPanel
+  - Assets/Works/Res/Lua/Framework
+  - Assets/Works/Res/Lua/Framework/Event
+  - Assets/Works/Res/Lua/Framework/FSM
+  - Assets/Works/Res/Lua/Framework/FSM/State
+  - Assets/Works/Res/Lua/Framework/Table/AutoGen
+  - Assets/Works/Res/Lua/Framework/Table
+  - Assets/Works/Res/Lua/Framework/Tool
+  - Assets/Works/Res/Lua_Bytes
+  - Assets/Works/Res/Lua_Proto
+  - Assets/Works/Res/Material/ScreenEffect
+  - Assets/Works/Res/Prefabs/UIPanel
+  - Assets/Works/Res/Texture/BG
+  - Assets/Works/Res/Scenes
+  - Assets/Works/Res/Texture/BG/Chapter1
+  - Assets/Works/Res/Texture/Map
+  - Assets/Works/Res/Texture/Role
+  - Assets/Works/Res/UIAtlas
+  AssetRefs:
+  - Name: GameSetting
+    BundleId: 5
+    DirIdx: 0
+  - Name: click1
+    BundleId: 6
+    DirIdx: 1
+  - Name: HeartBeat
+    BundleId: 7
+    DirIdx: 1
+  - Name: ReceiveMessage
+    BundleId: 8
+    DirIdx: 1
+  - Name: UIConfig
+    BundleId: 9
+    DirIdx: 2
+  - Name: wsyh SDF
+    BundleId: 10
+    DirIdx: 3
+  - Name: EnumDefine
+    BundleId: 11
+    DirIdx: 4
+  - Name: GameManager
+    BundleId: 12
+    DirIdx: 5
+  - Name: LuaPanda
+    BundleId: 13
+    DirIdx: 5
+  - Name: RootScript
+    BundleId: 14
+    DirIdx: 5
+  - Name: UI_Start
+    BundleId: 15
+    DirIdx: 6
+  - Name: AudioManager
+    BundleId: 16
+    DirIdx: 7
+  - Name: Class
+    BundleId: 17
+    DirIdx: 7
+  - Name: EventDefine
+    BundleId: 18
+    DirIdx: 8
+  - Name: EventDefine_CSharp
+    BundleId: 19
+    DirIdx: 8
+  - Name: EventManager
+    BundleId: 20
+    DirIdx: 8
+  - Name: FsmDefine
+    BundleId: 21
+    DirIdx: 9
+  - Name: FsmManager
+    BundleId: 22
+    DirIdx: 9
+  - Name: FsmStateBase
+    BundleId: 23
+    DirIdx: 9
+  - Name: FsmStateMaze
+    BundleId: 24
+    DirIdx: 10
+  - Name: FsmStateStart
+    BundleId: 25
+    DirIdx: 10
+  - Name: FsmStateStoryLine
+    BundleId: 26
+    DirIdx: 10
+  - Name: Functions
+    BundleId: 27
+    DirIdx: 7
+  - Name: KeyboardMgr
+    BundleId: 28
+    DirIdx: 7
+  - Name: protoc
+    BundleId: 29
+    DirIdx: 7
+  - Name: ScreenTouchMgr
+    BundleId: 30
+    DirIdx: 7
+  - Name: AllTables
+    BundleId: 31
+    DirIdx: 11
+  - Name: TableManager
+    BundleId: 32
+    DirIdx: 12
+  - Name: TimerManager
+    BundleId: 33
+    DirIdx: 7
+  - Name: DataTableTool
+    BundleId: 34
+    DirIdx: 13
+  - Name: LanguageTool
+    BundleId: 35
+    DirIdx: 13
+  - Name: ParserTableTool
+    BundleId: 36
+    DirIdx: 13
+  - Name: StringTool
+    BundleId: 37
+    DirIdx: 13
+  - Name: ToolManager
+    BundleId: 38
+    DirIdx: 13
+  - Name: UITool
+    BundleId: 39
+    DirIdx: 13
+  - Name: UIDemo
+    BundleId: 40
+    DirIdx: 7
+  - Name: UIHelper
+    BundleId: 41
+    DirIdx: 7
+  - Name: UIManager
+    BundleId: 42
+    DirIdx: 7
+  - Name: UIPanel
+    BundleId: 43
+    DirIdx: 7
+  - Name: UIPanelHelper
+    BundleId: 44
+    DirIdx: 7
+  - Name: UITemplate
+    BundleId: 45
+    DirIdx: 7
+  - Name: Utils
+    BundleId: 47
+    DirIdx: 7
+  - Name: Utils.lua
+    BundleId: 46
+    DirIdx: 7
+  - Name: Chapter1
+    BundleId: 48
+    DirIdx: 14
+  - Name: Chapter1Dialog
+    BundleId: 55
+    DirIdx: 14
+  - Name: Chapter2
+    BundleId: 56
+    DirIdx: 14
+  - Name: Chapter2Dialog
+    BundleId: 57
+    DirIdx: 14
+  - Name: Chapter2Option
+    BundleId: 58
+    DirIdx: 14
+  - Name: Chapter2OptionText
+    BundleId: 59
+    DirIdx: 14
+  - Name: Chapter3
+    BundleId: 60
+    DirIdx: 14
+  - Name: Chapter3Dialog
+    BundleId: 61
+    DirIdx: 14
+  - Name: Chapter3Option
+    BundleId: 62
+    DirIdx: 14
+  - Name: Chapter3OptionText
+    BundleId: 63
+    DirIdx: 14
+  - Name: Chapter4
+    BundleId: 64
+    DirIdx: 14
+  - Name: Chapter4Dialog
+    BundleId: 65
+    DirIdx: 14
+  - Name: Chapter4Option
+    BundleId: 66
+    DirIdx: 14
+  - Name: Chapter4OptionText
+    BundleId: 67
+    DirIdx: 14
+  - Name: Chapter5
+    BundleId: 68
+    DirIdx: 14
+  - Name: Chapter5Dialog
+    BundleId: 69
+    DirIdx: 14
+  - Name: Chapter5Option
+    BundleId: 70
+    DirIdx: 14
+  - Name: Chapter5OptionText
+    BundleId: 71
+    DirIdx: 14
+  - Name: Chapter6
+    BundleId: 72
+    DirIdx: 14
+  - Name: Chapter6Dialog
+    BundleId: 73
+    DirIdx: 14
+  - Name: Chapter6Option
+    BundleId: 74
+    DirIdx: 14
+  - Name: Chapter6OptionText
+    BundleId: 75
+    DirIdx: 14
+  - Name: Chapter7
+    BundleId: 76
+    DirIdx: 14
+  - Name: Chapter7Dialog
+    BundleId: 77
+    DirIdx: 14
+  - Name: Chapter7Option
+    BundleId: 78
+    DirIdx: 14
+  - Name: Chapter7OptionText
+    BundleId: 79
+    DirIdx: 14
+  - Name: Chapter8
+    BundleId: 80
+    DirIdx: 14
+  - Name: Chapter8Dialog
+    BundleId: 81
+    DirIdx: 14
+  - Name: Chapter8Option
+    BundleId: 82
+    DirIdx: 14
+  - Name: Chapter8OptionText
+    BundleId: 83
+    DirIdx: 14
+  - Name: Chapter9
+    BundleId: 84
+    DirIdx: 14
+  - Name: Chapter9Dialog
+    BundleId: 85
+    DirIdx: 14
+  - Name: Chapter10
+    BundleId: 49
+    DirIdx: 14
+  - Name: Chapter10Dialog
+    BundleId: 50
+    DirIdx: 14
+  - Name: Chapter11
+    BundleId: 51
+    DirIdx: 14
+  - Name: Chapter11Dialog
+    BundleId: 52
+    DirIdx: 14
+  - Name: Chapter12
+    BundleId: 53
+    DirIdx: 14
+  - Name: Chapter12Dialog
+    BundleId: 54
+    DirIdx: 14
+  - Name: LivelyRole
+    BundleId: 86
+    DirIdx: 14
+  - Name: MazeMap
+    BundleId: 87
+    DirIdx: 14
+  - Name: MazeMapItem
+    BundleId: 88
+    DirIdx: 14
+  - Name: ResData
+    BundleId: 89
+    DirIdx: 14
+  - Name: RoleCall
+    BundleId: 90
+    DirIdx: 14
+  - Name: RoleName
+    BundleId: 91
+    DirIdx: 14
+  - Name: SceneData
+    BundleId: 92
+    DirIdx: 14
+  - Name: ScreenEffect
+    BundleId: 93
+    DirIdx: 14
+  - Name: UIConfig
+    BundleId: 94
+    DirIdx: 14
+  - Name: WordData
+    BundleId: 95
+    DirIdx: 14
+  - Name: Table_Chapter1
+    BundleId: 96
+    DirIdx: 15
+  - Name: Table_Chapter1Dialog
+    BundleId: 103
+    DirIdx: 15
+  - Name: Table_Chapter1Option
+    BundleId: 104
+    DirIdx: 15
+  - Name: Table_Chapter1OptionText
+    BundleId: 105
+    DirIdx: 15
+  - Name: Table_Chapter2
+    BundleId: 106
+    DirIdx: 15
+  - Name: Table_Chapter2Dialog
+    BundleId: 107
+    DirIdx: 15
+  - Name: Table_Chapter2Option
+    BundleId: 108
+    DirIdx: 15
+  - Name: Table_Chapter2OptionText
+    BundleId: 109
+    DirIdx: 15
+  - Name: Table_Chapter3
+    BundleId: 110
+    DirIdx: 15
+  - Name: Table_Chapter3Dialog
+    BundleId: 111
+    DirIdx: 15
+  - Name: Table_Chapter3Option
+    BundleId: 112
+    DirIdx: 15
+  - Name: Table_Chapter3OptionText
+    BundleId: 113
+    DirIdx: 15
+  - Name: Table_Chapter4
+    BundleId: 114
+    DirIdx: 15
+  - Name: Table_Chapter4Dialog
+    BundleId: 115
+    DirIdx: 15
+  - Name: Table_Chapter4Option
+    BundleId: 116
+    DirIdx: 15
+  - Name: Table_Chapter4OptionText
+    BundleId: 117
+    DirIdx: 15
+  - Name: Table_Chapter5
+    BundleId: 118
+    DirIdx: 15
+  - Name: Table_Chapter5Dialog
+    BundleId: 119
+    DirIdx: 15
+  - Name: Table_Chapter5Option
+    BundleId: 120
+    DirIdx: 15
+  - Name: Table_Chapter5OptionText
+    BundleId: 121
+    DirIdx: 15
+  - Name: Table_Chapter6
+    BundleId: 122
+    DirIdx: 15
+  - Name: Table_Chapter6Dialog
+    BundleId: 123
+    DirIdx: 15
+  - Name: Table_Chapter6Option
+    BundleId: 124
+    DirIdx: 15
+  - Name: Table_Chapter6OptionText
+    BundleId: 125
+    DirIdx: 15
+  - Name: Table_Chapter7
+    BundleId: 126
+    DirIdx: 15
+  - Name: Table_Chapter7Dialog
+    BundleId: 127
+    DirIdx: 15
+  - Name: Table_Chapter7Option
+    BundleId: 128
+    DirIdx: 15
+  - Name: Table_Chapter7OptionText
+    BundleId: 129
+    DirIdx: 15
+  - Name: Table_Chapter8
+    BundleId: 130
+    DirIdx: 15
+  - Name: Table_Chapter8Dialog
+    BundleId: 131
+    DirIdx: 15
+  - Name: Table_Chapter8Option
+    BundleId: 132
+    DirIdx: 15
+  - Name: Table_Chapter8OptionText
+    BundleId: 133
+    DirIdx: 15
+  - Name: Table_Chapter9
+    BundleId: 134
+    DirIdx: 15
+  - Name: Table_Chapter9Dialog
+    BundleId: 135
+    DirIdx: 15
+  - Name: Table_Chapter10
+    BundleId: 97
+    DirIdx: 15
+  - Name: Table_Chapter10Dialog
+    BundleId: 98
+    DirIdx: 15
+  - Name: Table_Chapter11
+    BundleId: 99
+    DirIdx: 15
+  - Name: Table_Chapter11Dialog
+    BundleId: 100
+    DirIdx: 15
+  - Name: Table_Chapter12
+    BundleId: 101
+    DirIdx: 15
+  - Name: Table_Chapter12Dialog
+    BundleId: 102
+    DirIdx: 15
+  - Name: Table_Chapter_1
+    BundleId: 136
+    DirIdx: 15
+  - Name: Table_Chapter_2
+    BundleId: 137
+    DirIdx: 15
+  - Name: Table_Chapter_3
+    BundleId: 138
+    DirIdx: 15
+  - Name: Table_Chapter_4
+    BundleId: 139
+    DirIdx: 15
+  - Name: Table_Chapter_5
+    BundleId: 140
+    DirIdx: 15
+  - Name: Table_Chapter_6
+    BundleId: 141
+    DirIdx: 15
+  - Name: Table_Chapter_7
+    BundleId: 142
+    DirIdx: 15
+  - Name: Table_Chapter_8
+    BundleId: 143
+    DirIdx: 15
+  - Name: Table_Chapter_9
+    BundleId: 144
+    DirIdx: 15
+  - Name: Table_Dialog
+    BundleId: 145
+    DirIdx: 15
+  - Name: Table_LivelyRole
+    BundleId: 146
+    DirIdx: 15
+  - Name: Table_MazeMap
+    BundleId: 147
+    DirIdx: 15
+  - Name: Table_MazeMapItem
+    BundleId: 148
+    DirIdx: 15
+  - Name: Table_OptionText
+    BundleId: 149
+    DirIdx: 15
+  - Name: Table_ResData
+    BundleId: 150
+    DirIdx: 15
+  - Name: Table_RoleCall
+    BundleId: 151
+    DirIdx: 15
+  - Name: Table_RoleName
+    BundleId: 152
+    DirIdx: 15
+  - Name: Table_RoundDialog
+    BundleId: 153
+    DirIdx: 15
+  - Name: Table_RoundDialog1
+    BundleId: 154
+    DirIdx: 15
+  - Name: Table_RoundDialog2
+    BundleId: 155
+    DirIdx: 15
+  - Name: Table_RoundDialog3
+    BundleId: 156
+    DirIdx: 15
+  - Name: Table_RoundDialog4
+    BundleId: 157
+    DirIdx: 15
+  - Name: Table_RoundDialog_1
+    BundleId: 158
+    DirIdx: 15
+  - Name: Table_RoundDialog_2
+    BundleId: 159
+    DirIdx: 15
+  - Name: Table_RoundDialog_3
+    BundleId: 160
+    DirIdx: 15
+  - Name: Table_RoundOption
+    BundleId: 161
+    DirIdx: 15
+  - Name: Table_SceneData
+    BundleId: 162
+    DirIdx: 15
+  - Name: Table_ScreenEffect
+    BundleId: 163
+    DirIdx: 15
+  - Name: Table_UIConfig
+    BundleId: 164
+    DirIdx: 15
+  - Name: Table_WordData
+    BundleId: 165
+    DirIdx: 15
+  - Name: LoveHeart
+    BundleId: 166
+    DirIdx: 16
+  - Name: Canvas
+    BundleId: 167
+    DirIdx: 17
+  - Name: start_bg
+    BundleId: 180
+    DirIdx: 18
+  - Name: UI_Start
+    BundleId: 168
+    DirIdx: 17
+  - Name: New Custom Render Texture
+    BundleId: 169
+    DirIdx: 19
+  - Name: New Lighting Settings
+    BundleId: 170
+    DirIdx: 19
+  - Name: StartUp
+    BundleId: 171
+    DirIdx: 19
+  - Name: TestScene
+    BundleId: 172
+    DirIdx: 19
+  - Name: BG_1
+    BundleId: 173
+    DirIdx: 18
+  - Name: BG_2
+    BundleId: 174
+    DirIdx: 18
+  - Name: BG_3
+    BundleId: 175
+    DirIdx: 18
+  - Name: BG_4
+    BundleId: 176
+    DirIdx: 18
+  - Name: BG_5
+    BundleId: 177
+    DirIdx: 18
+  - Name: BG_6
+    BundleId: 178
+    DirIdx: 18
+  - Name: shiyanshi
+    BundleId: 179
+    DirIdx: 20
+  - Name: Map_Lab
+    BundleId: 181
+    DirIdx: 21
+  - Name: Role_Mine
+    BundleId: 182
+    DirIdx: 22
+  - Name: Chapter1
+    BundleId: 183
+    DirIdx: 23
+  - Name: Chapter4
+    BundleId: 184
+    DirIdx: 23
+  - Name: RoleImage
+    BundleId: 185
+    DirIdx: 23
+  - Name: UI
+    BundleId: 186
+    DirIdx: 23
+  Bundles:
+  - Name: assets/textmesh pro/fonts/liberationsans.unity3d
+    Deps: 
+    Hash: fb91f4d8293a8f92c71387c7cd35740d
+    EncryptMethod: 0
+  - Name: assets/textmesh pro/resources/fonts & materials/liberationsans sdf - fallback.unity3d
+    Deps: 0000000003000000
+    Hash: 2566b202f205a479384ee4f43e913d99
+    EncryptMethod: 0
+  - Name: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.unity3d
+    Deps: 000000000100000003000000
+    Hash: 52058fdcb1eef220aca347fc78d902b1
+    EncryptMethod: 0
+  - Name: assets/textmesh pro/shaders/tmp_sdf-mobile.unity3d
+    Deps: 
+    Hash: 639e96587e3f6d6ec60baa119240088d
+    EncryptMethod: 0
+  - Name: assets/textmesh pro/shaders/tmp_sdf.unity3d
+    Deps: 
+    Hash: 490fb5c75ca2cb518b941d0d5b52c9b4
+    EncryptMethod: 0
+  - Name: assets/works/res/allgamesetting/gamesetting.unity3d
+    Deps: 
+    Hash: 1b7c7ef2a30d53c0d1d5308ce008957b
+    EncryptMethod: 0
+  - Name: assets/works/res/audio/click1.unity3d
+    Deps: 
+    Hash: 276dc26d533be2b6eb903d1b04d3e67e
+    EncryptMethod: 0
+  - Name: assets/works/res/audio/heartbeat.unity3d
+    Deps: 
+    Hash: 9690cf7bdd854180de4fa024acad66e6
+    EncryptMethod: 0
+  - Name: assets/works/res/audio/receivemessage.unity3d
+    Deps: 
+    Hash: 643ade4917cd3635a08a2f70084930af
+    EncryptMethod: 0
+  - Name: assets/works/res/cs_bytes/uiconfig.unity3d
+    Deps: 
+    Hash: 29070df2ba4e4bc206be5ab6ffc9aedc
+    EncryptMethod: 0
+  - Name: assets/works/res/font/wsyh sdf.unity3d
+    Deps: 04000000
+    Hash: 3f4a314be4a0973d32a444abd5c6271d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/code/define/enumdefine.unity3d
+    Deps: 
+    Hash: 04f196837686a0fa9a75fbf20e926e62
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/code/gamemanager.unity3d
+    Deps: 
+    Hash: 91fdd96d42f776d53078291ce4120a18
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/code/luapanda.unity3d
+    Deps: 
+    Hash: b88e6544d32b1d5e4a343cce76a7f420
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/code/rootscript.unity3d
+    Deps: 
+    Hash: 8260432795808e5b83ec8361f8dc5c72
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/code/uipanel/ui_start.unity3d
+    Deps: 
+    Hash: 07df5cb356a6c1643b5c5477b34eaffe
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/audiomanager.unity3d
+    Deps: 
+    Hash: 6888ed031008c9a49aeb0d4cdc32226c
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/class.unity3d
+    Deps: 
+    Hash: a3e760841c85955d1192e6f95c6b61e6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/event/eventdefine.unity3d
+    Deps: 
+    Hash: 0715b215f73f0408f7ca4b7f9fea300e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/event/eventdefine_csharp.unity3d
+    Deps: 
+    Hash: d7ec9d28e534edd441a83ae31eb0db1f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/event/eventmanager.unity3d
+    Deps: 
+    Hash: 97a9acd72a4c687894544ed2778776b7
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/fsm/fsmdefine.unity3d
+    Deps: 
+    Hash: 98a66cfbf1fb1e021cfafbc051e43522
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/fsm/fsmmanager.unity3d
+    Deps: 
+    Hash: d17fa722cccc07791a0633090db9383d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/fsm/fsmstatebase.unity3d
+    Deps: 
+    Hash: 1a0c0397b090e30466894a5970c6385b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/fsm/state/fsmstatemaze.unity3d
+    Deps: 
+    Hash: 280657bbebf53399cfcc77cc184567a4
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/fsm/state/fsmstatestart.unity3d
+    Deps: 
+    Hash: 35850bf6309e56baf8649aaef2d792da
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/fsm/state/fsmstatestoryline.unity3d
+    Deps: 
+    Hash: ed7ffcd02925581277f515fc6d7f8f90
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/functions.unity3d
+    Deps: 
+    Hash: 6616ad3099b9f78a722eec653a296b5f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/keyboardmgr.unity3d
+    Deps: 
+    Hash: 8a519d5718e79716dca4fe1bfdd4693c
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/protoc.unity3d
+    Deps: 
+    Hash: ba63b5ce0850463fd8cf5b35cd3767fb
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/screentouchmgr.unity3d
+    Deps: 
+    Hash: 3842cfc5255936a42a787f7ec9c1188e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/table/autogen/alltables.unity3d
+    Deps: 
+    Hash: a52627bd0cc057f24d9678d71c3a676f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/table/tablemanager.unity3d
+    Deps: 
+    Hash: edbac8867d7c15ad72da177c1cd46ced
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/timermanager.unity3d
+    Deps: 
+    Hash: 775fb98d4beddc3c79bbd02b08040cd6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/tool/datatabletool.unity3d
+    Deps: 
+    Hash: 623c5145d60346b249df930caf152a55
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/tool/languagetool.unity3d
+    Deps: 
+    Hash: 17ba060b5a290dc86538e1275344f9b9
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/tool/parsertabletool.unity3d
+    Deps: 
+    Hash: b446f97b361d7922c81fe79c440c44d2
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/tool/stringtool.unity3d
+    Deps: 
+    Hash: a8abdc1a1fbb749cff47c7ead7725df9
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/tool/toolmanager.unity3d
+    Deps: 
+    Hash: 0e72004790263b070dfdb975155398aa
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/tool/uitool.unity3d
+    Deps: 
+    Hash: e3b224a4369f4c31cb970ef91b12048f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/uidemo.unity3d
+    Deps: 
+    Hash: e0eed565124e321a80887f8869a029ff
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/uihelper.unity3d
+    Deps: 
+    Hash: d49d11ea19a075d113b4680b156599ed
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/uimanager.unity3d
+    Deps: 
+    Hash: fb58ef8bc595c1db29417e7a33d8fcf2
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/uipanel.unity3d
+    Deps: 
+    Hash: 63500e16d9bdc1069a42ca2dbbf1f321
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/uipanelhelper.unity3d
+    Deps: 
+    Hash: becb4ff398141df8fe8a3177e19d3bb0
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/uitemplate.unity3d
+    Deps: 
+    Hash: 7890837307c7e95cb761546e77019d0a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/utils.lua.unity3d
+    Deps: 
+    Hash: 7ea358d9c6ec6c184bdd059505f04442
+    EncryptMethod: 0
+  - Name: assets/works/res/lua/framework/utils.unity3d
+    Deps: 
+    Hash: 057a2d45cb925e26ad1f51da99207c21
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter1.unity3d
+    Deps: 
+    Hash: 1b9120c39ee2b0df3fcebbf9bfea199c
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter10.unity3d
+    Deps: 
+    Hash: 50a0a3db52b1d8a6ef76758d08969f9e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter10dialog.unity3d
+    Deps: 
+    Hash: 7cf6c540361613341d5f1a4b91242133
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter11.unity3d
+    Deps: 
+    Hash: ff6fb8bed1e0acd42493a302ab0c0b49
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter11dialog.unity3d
+    Deps: 
+    Hash: e115a5433b9610565424e3ef12dac97b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter12.unity3d
+    Deps: 
+    Hash: 033ba9ffae314f9380d808632fd8c32b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter12dialog.unity3d
+    Deps: 
+    Hash: f486a95328187ef71cc1b4a2fb0bfe93
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter1dialog.unity3d
+    Deps: 
+    Hash: 26d7d3b3b408b61da6bec4ee79ccbc00
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter2.unity3d
+    Deps: 
+    Hash: b998b9fb6b5e186c4ce089df57b4dd2c
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter2dialog.unity3d
+    Deps: 
+    Hash: f577283cc163ed38517c79289b3b11ad
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter2option.unity3d
+    Deps: 
+    Hash: 0a67167bfb21f363f1b4bc25c95932f4
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter2optiontext.unity3d
+    Deps: 
+    Hash: 5c1357780fc8aeb1d763c1ae33a31a59
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter3.unity3d
+    Deps: 
+    Hash: 7f546f56f50c3f685fea65f132b99773
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter3dialog.unity3d
+    Deps: 
+    Hash: 8206e3d0a7885d789eb5d8973cc148a3
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter3option.unity3d
+    Deps: 
+    Hash: 11d1c87be86c87ba0a0c5fc541507506
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter3optiontext.unity3d
+    Deps: 
+    Hash: d2fd6a1d3e386dbebede98eb323c2438
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter4.unity3d
+    Deps: 
+    Hash: f19dd1a8a100d97a42516894a6d2d5cc
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter4dialog.unity3d
+    Deps: 
+    Hash: 8504e360f0d19e57cf28a4d42515b0b9
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter4option.unity3d
+    Deps: 
+    Hash: 6b67881efcdc7676503f32777a2f5dbc
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter4optiontext.unity3d
+    Deps: 
+    Hash: 3b9f71168e8899f99d58a7f7d82f3d55
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter5.unity3d
+    Deps: 
+    Hash: a64282d855386987ad583603ac6bc7ed
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter5dialog.unity3d
+    Deps: 
+    Hash: 0b379ca20705b2c9d9dba938a6ab2bcc
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter5option.unity3d
+    Deps: 
+    Hash: 7c0dd1cebc5297169b1e501bcca702f0
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter5optiontext.unity3d
+    Deps: 
+    Hash: 0fc03be3db6bfe9b37afc6d696314ff8
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter6.unity3d
+    Deps: 
+    Hash: d038d997aa224ffa49afc90d33d8fcf6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter6dialog.unity3d
+    Deps: 
+    Hash: a44653fe9e5c9ca9224e4d334abe608b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter6option.unity3d
+    Deps: 
+    Hash: e689efbffef66169bd2a262ecefee09b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter6optiontext.unity3d
+    Deps: 
+    Hash: 965b71fc370491318c6d512204bd2c1d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter7.unity3d
+    Deps: 
+    Hash: bb497d254ac8e23db4250e926d627cde
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter7dialog.unity3d
+    Deps: 
+    Hash: 85dd2168f9f42c0b63021356c7ba13c7
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter7option.unity3d
+    Deps: 
+    Hash: d77468e71eebe96d0ac87ee57d4fe31a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter7optiontext.unity3d
+    Deps: 
+    Hash: adb951dd5eb5c82529a90209c23bad99
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter8.unity3d
+    Deps: 
+    Hash: a46ca9ea36eb61ae0f2d175cd3af3979
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter8dialog.unity3d
+    Deps: 
+    Hash: d9a1226143a9f36c904cd8242a3befd8
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter8option.unity3d
+    Deps: 
+    Hash: ecc00fa1256f31ff0c0c89314bbe8912
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter8optiontext.unity3d
+    Deps: 
+    Hash: ae5dec63adeea28b4477077176e4e9d7
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter9.unity3d
+    Deps: 
+    Hash: 4c68cd35de05494445c4dd5892d6383b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/chapter9dialog.unity3d
+    Deps: 
+    Hash: 6e73464b19efe894cdd1725e72bf57fd
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/livelyrole.unity3d
+    Deps: 
+    Hash: f88ab78823b67b22412fdc7fd59a3f11
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/mazemap.unity3d
+    Deps: 
+    Hash: 2cd76e32dff15e8efee0ac7f19d14556
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/mazemapitem.unity3d
+    Deps: 
+    Hash: bf5d481dbc93d03deead4d00f597fcac
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/resdata.unity3d
+    Deps: 
+    Hash: ab10899e689243ee6a7720993ceda30e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/rolecall.unity3d
+    Deps: 
+    Hash: 45bf7066d123361e5d669ef467c72fb0
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/rolename.unity3d
+    Deps: 
+    Hash: a8cbdaf12a1e20cc2ff490d44e6f6d1f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/scenedata.unity3d
+    Deps: 
+    Hash: 73911d02926b0591fd16b6c6fb06155e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/screeneffect.unity3d
+    Deps: 
+    Hash: dce55e69a8d3f681b22c48a30d28663a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/uiconfig.unity3d
+    Deps: 
+    Hash: 72bfdaa1744f53004e37ce5e37a0148d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_bytes/worddata.unity3d
+    Deps: 
+    Hash: 547f180d1061ac0608fadaa554f3b9e6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter1.unity3d
+    Deps: 
+    Hash: 84e12aa6db7e2730bf8befb7b9378625
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter10.unity3d
+    Deps: 
+    Hash: 7defd815fd1584434ef2cbb9170aaaa7
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter10dialog.unity3d
+    Deps: 
+    Hash: e88e9206cfa4c458f4ae79e86dd6ebbb
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter11.unity3d
+    Deps: 
+    Hash: 3a6cd783162ed4c500921b648575b6bd
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter11dialog.unity3d
+    Deps: 
+    Hash: f0f4a8091282c39d98b77916ff1d18e4
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter12.unity3d
+    Deps: 
+    Hash: ea0fdc8dd960039de7d72c4388cb82b3
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter12dialog.unity3d
+    Deps: 
+    Hash: c98a2fde23e2b78e26d4ee1de2d62689
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter1dialog.unity3d
+    Deps: 
+    Hash: 1ab4e1da2535f80aaf3e38130f887464
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter1option.unity3d
+    Deps: 
+    Hash: 129e9ceff9d38f903d49b583e01dbf19
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter1optiontext.unity3d
+    Deps: 
+    Hash: 98588912a63dfa2ce02b5b08aa4fafc1
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter2.unity3d
+    Deps: 
+    Hash: 358a10d749e8ee77c19cc0c932f8612e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter2dialog.unity3d
+    Deps: 
+    Hash: 2204fdbf4caa5142dc1027a26873454f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter2option.unity3d
+    Deps: 
+    Hash: 9357f17ccfef6904f1f52fac8d4fcb14
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter2optiontext.unity3d
+    Deps: 
+    Hash: 3ec12025adbc34adb8d195e8bebe1496
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter3.unity3d
+    Deps: 
+    Hash: 688796b06c0dfe03c0c4d40e988e07be
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter3dialog.unity3d
+    Deps: 
+    Hash: 7733dd19d42db00b21bf3323ef66df8a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter3option.unity3d
+    Deps: 
+    Hash: 6bb2a7fd1550ea4d30b45c02addcd6c8
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter3optiontext.unity3d
+    Deps: 
+    Hash: 5f010cb9579fa1189fa9a9379e2c1618
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter4.unity3d
+    Deps: 
+    Hash: 8a8bd5cc2a6d9cbc2bd5648e2d558443
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter4dialog.unity3d
+    Deps: 
+    Hash: e3d785f3e23b613a0611df47b1548cdb
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter4option.unity3d
+    Deps: 
+    Hash: 7fd4ebe9152a17fb84d8a443cfeba0c7
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter4optiontext.unity3d
+    Deps: 
+    Hash: fcb162710bd8b0a55bfb9b6cc7644e4a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter5.unity3d
+    Deps: 
+    Hash: ec73d9966876e9281b460723b362d61d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter5dialog.unity3d
+    Deps: 
+    Hash: cfd0b892900d2264b9fa0fa74df7bdd6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter5option.unity3d
+    Deps: 
+    Hash: 20d028721b41c7a09a460966ce3d6f03
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter5optiontext.unity3d
+    Deps: 
+    Hash: fd97991049f895a8161a5d03059fc550
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter6.unity3d
+    Deps: 
+    Hash: 5a4b7b26c26814e2105457da4777411a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter6dialog.unity3d
+    Deps: 
+    Hash: bf47d8919499d9a0255269b8eb76d531
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter6option.unity3d
+    Deps: 
+    Hash: 3fe55d8d9ab4e65e820d984d0a2555ce
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter6optiontext.unity3d
+    Deps: 
+    Hash: 65232d5cb0b2f287802a0d718b761f15
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter7.unity3d
+    Deps: 
+    Hash: b273d56be5cb9cc331dffa0402259c3d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter7dialog.unity3d
+    Deps: 
+    Hash: c020bcf0ea78a9ef251e533e9f8238bb
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter7option.unity3d
+    Deps: 
+    Hash: aed8ba103664e3b96f8115f82e8cf1ea
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter7optiontext.unity3d
+    Deps: 
+    Hash: 3cce09799daf8b118d92f67e6eca576b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter8.unity3d
+    Deps: 
+    Hash: 1d80092816c44d0dd8c64c64958a22f6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter8dialog.unity3d
+    Deps: 
+    Hash: b5880ad8dbe87ed63029c70a3ddf2e31
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter8option.unity3d
+    Deps: 
+    Hash: be3437350feb05aac9d88f9d905578b5
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter8optiontext.unity3d
+    Deps: 
+    Hash: a18e41767e87637a51a4fd799342798f
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter9.unity3d
+    Deps: 
+    Hash: 6f8b9d0c827ad0ad20f12ffad82980d1
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter9dialog.unity3d
+    Deps: 
+    Hash: 8fd3c083ce9a694b8857943a1ed695e6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_1.unity3d
+    Deps: 
+    Hash: 1263c653a679fddcafb102d264bd8fbd
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_2.unity3d
+    Deps: 
+    Hash: 77d14b98ce8436bb1c3541f8c5c27a62
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_3.unity3d
+    Deps: 
+    Hash: 5cb24715ec81b39dd14a644a138a0169
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_4.unity3d
+    Deps: 
+    Hash: abe8b16af9d0c7aa8d827986065edd8e
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_5.unity3d
+    Deps: 
+    Hash: 917ae65f311cfd81daac4e2822033ab0
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_6.unity3d
+    Deps: 
+    Hash: 333ffff8d5195cb5cfa669eceda82d8c
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_7.unity3d
+    Deps: 
+    Hash: c2873283ce15b3079fcbc39720bfb7d2
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_8.unity3d
+    Deps: 
+    Hash: 2449750e3980e64f7343051de8e302e3
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_chapter_9.unity3d
+    Deps: 
+    Hash: d7e95bdfaca1ae2713da6287444eb05c
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_dialog.unity3d
+    Deps: 
+    Hash: b2a48ea073493b3a24fd8e57f2ed58ee
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_livelyrole.unity3d
+    Deps: 
+    Hash: 888b267dc777cc47a74023a662499621
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_mazemap.unity3d
+    Deps: 
+    Hash: 9e7625595d359a3236a3de6dd46b7f7a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_mazemapitem.unity3d
+    Deps: 
+    Hash: a2950264142857180da798a5098fa8da
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_optiontext.unity3d
+    Deps: 
+    Hash: 825fd96b698ee8f0a88b5a1faae183fa
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_resdata.unity3d
+    Deps: 
+    Hash: f275f8e18940ee5ac2233877144b15f9
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rolecall.unity3d
+    Deps: 
+    Hash: 3c61e32d0b5642733668a4c883e896fe
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rolename.unity3d
+    Deps: 
+    Hash: 06f0318689017e1689d4713a22c10a9a
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog.unity3d
+    Deps: 
+    Hash: d65988b6df718f6ae7529e4e29231cc2
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog1.unity3d
+    Deps: 
+    Hash: 9f2667f38604276ecf0552d453763f0b
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog2.unity3d
+    Deps: 
+    Hash: 9e86a2e98af7bf44bf4513e0ae85ee27
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog3.unity3d
+    Deps: 
+    Hash: 0bb17f92ccd619e582200705b052082d
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog4.unity3d
+    Deps: 
+    Hash: bd4e84078c93bbb126dd4e1c183aeafd
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog_1.unity3d
+    Deps: 
+    Hash: 096c18daa928d2d6d77ebb3742e41896
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog_2.unity3d
+    Deps: 
+    Hash: 74025c6e468d53277d8574dc14aff925
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_rounddialog_3.unity3d
+    Deps: 
+    Hash: 0000096ef2760b6660e4e92e145541e6
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_roundoption.unity3d
+    Deps: 
+    Hash: 52e4401d2596396b7956186cb3d65a35
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_scenedata.unity3d
+    Deps: 
+    Hash: ff0f6c4b6a58d40c0530f7b41f456a57
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_screeneffect.unity3d
+    Deps: 
+    Hash: 6ae79373815386a87d6e6a4d542fa9d3
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_uiconfig.unity3d
+    Deps: 
+    Hash: 717c8f628d4319e3547741b4e4c901b5
+    EncryptMethod: 0
+  - Name: assets/works/res/lua_proto/table_worddata.unity3d
+    Deps: 
+    Hash: 060df3c8cf920b2ab31c53b2ee13ef52
+    EncryptMethod: 0
+  - Name: assets/works/res/material/screeneffect/loveheart.unity3d
+    Deps: 
+    Hash: bd2bb1d78efbc5649cd9d73fa1a3800f
+    EncryptMethod: 0
+  - Name: assets/works/res/prefabs/uipanel/canvas.unity3d
+    Deps: 00000000010000000200000003000000
+    Hash: b13da943e55677c3f3618edd60e9c253
+    EncryptMethod: 0
+  - Name: assets/works/res/prefabs/uipanel/ui_start.unity3d
+    Deps: 00000000010000000200000003000000040000000a000000b4000000
+    Hash: a96b442ee1edbc2f5599263985ed42e0
+    EncryptMethod: 0
+  - Name: assets/works/res/scenes/new custom render texture.unity3d
+    Deps: 
+    Hash: 00db0895a2eb2231d437e0d642070e9f
+    EncryptMethod: 0
+  - Name: assets/works/res/scenes/new lighting settings.unity3d
+    Deps: 
+    Hash: 57b4e6c2c4dae854079e509cf8e5cc65
+    EncryptMethod: 0
+  - Name: assets/works/res/scenes/startup.unity3d
+    Deps: 
+    Hash: 56ce462cd2a8baf18bd6833faa5d392b
+    EncryptMethod: 0
+  - Name: assets/works/res/scenes/testscene.unity3d
+    Deps: 
+    Hash: ce6b658a73dd767887eca7efe1705b97
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/bg_1.unity3d
+    Deps: 
+    Hash: f2b9c492e1459a517e721b6beb2a8562
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/bg_2.unity3d
+    Deps: 
+    Hash: 481e9abe14c7a184ec6e2b937e8fa023
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/bg_3.unity3d
+    Deps: 
+    Hash: 0dcbda949d6a7828d1982f61c64683d6
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/bg_4.unity3d
+    Deps: 
+    Hash: fe8b571979f7306589c19b13e70722ab
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/bg_5.unity3d
+    Deps: 
+    Hash: 7b9f390cf4cddcefc5393a07511fa919
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/bg_6.unity3d
+    Deps: 
+    Hash: 763872586ca9f09ca157d0eee317c439
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/chapter1/shiyanshi.unity3d
+    Deps: 
+    Hash: 78e374158f55473cb3f9d07758868305
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/bg/start_bg.unity3d
+    Deps: 
+    Hash: bfb1771eb44a68ea0bf6e641c74d8a60
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/map/map_lab.unity3d
+    Deps: 
+    Hash: dc984fd93fa93509db0093a7be3e9d43
+    EncryptMethod: 0
+  - Name: assets/works/res/texture/role/role_mine.unity3d
+    Deps: 
+    Hash: 59239091e08e301b0f8e363afa24771f
+    EncryptMethod: 0
+  - Name: assets/works/res/uiatlas/chapter1.unity3d
+    Deps: 
+    Hash: 9dfe9d7cf1a0fe39b7615c91d0ddecaf
+    EncryptMethod: 0
+  - Name: assets/works/res/uiatlas/chapter4.unity3d
+    Deps: 
+    Hash: ce7515f832547a7c60d71b4e535e8005
+    EncryptMethod: 0
+  - Name: assets/works/res/uiatlas/roleimage.unity3d
+    Deps: 
+    Hash: fd3a7600fc692436eee6f74e6650a387
+    EncryptMethod: 0
+  - Name: assets/works/res/uiatlas/ui.unity3d
+    Deps: 
+    Hash: dda3490e225c4e8c158f01e6a59c3ce9
+    EncryptMethod: 0

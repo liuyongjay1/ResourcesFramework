@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+message Row_MazeMapItem
+{
+    optional string key = 1;
+}
+
+message Table_MazeMapItem
+{
+    repeated Row_MazeMapItem datas = 1;
+}

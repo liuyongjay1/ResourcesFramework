@@ -1,0 +1,16 @@
+AssetBundleFramework/Library/
+AssetBundleFramework/Logs/
+AssetBundleFramework/Download/
+AssetBundleFramework/.vsconfig
+AssetBundleFramework/Assembly-CSharp.csproj
+AssetBundleFramework/Assembly-CSharp-Editor.csproj
+AssetBundleFramework/AssetBundleFramework.sln
+AssetBundleFramework/.vs
+AssetBundleFramework/Build/
+AssetBundleFramework/obj/
+AssetBundleFramework/Assets/StreamingAssets/
+AssetBundleFramework/BuildBundles/
+AssetBundleFramework/PersistentData/
+AssetBundleFramework/Temp/
+AssetBundleFramework/UserSettings/
+*.meta

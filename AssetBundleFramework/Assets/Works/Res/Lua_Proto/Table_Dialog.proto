@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Row_Dialog
+{
+    optional string key = 1;
+    optional string chinese = 2;
+    optional string japan = 3;
+}
+
+message Table_Dialog
+{
+    repeated Row_Dialog datas = 1;
+}

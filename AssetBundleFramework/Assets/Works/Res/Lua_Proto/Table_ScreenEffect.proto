@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+message Row_ScreenEffect
+{
+    optional string key = 1;
+    optional string effectPath = 2;
+    optional string audioResPath = 3;
+    optional float audioTime = 4;
+}
+
+message Table_ScreenEffect
+{
+    repeated Row_ScreenEffect datas = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+message Row_SceneData
+{
+    optional string key = 1;
+    optional string param = 2;
+    optional string showBtnName = 3;
+    optional string clickBtnCode = 4;
+}
+
+message Table_SceneData
+{
+    repeated Row_SceneData datas = 1;
+}

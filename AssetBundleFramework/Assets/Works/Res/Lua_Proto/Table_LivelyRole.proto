@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Row_LivelyRole
+{
+    optional string key = 1;
+    repeated int32 localPos = 2;
+    repeated int32 defaultSize = 3;
+}
+
+message Table_LivelyRole
+{
+    repeated Row_LivelyRole datas = 1;
+}

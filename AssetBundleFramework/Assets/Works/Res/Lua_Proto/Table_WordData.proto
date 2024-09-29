@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+message Row_WordData
+{
+    optional int32 id = 1;
+    optional string key = 2;
+    optional string value = 3;
+    optional int32 tipTypeID = 4;
+}
+
+message Table_WordData
+{
+    repeated Row_WordData datas = 1;
+}

@@ -1,0 +1,5 @@
+require 'Framework/Tool/StringTool'
+require 'Framework/Tool/ParserTableTool'
+require 'Framework/Tool/LanguageTool'
+require 'Framework/Tool/UITool'
+require 'Framework/Tool/DataTableTool'

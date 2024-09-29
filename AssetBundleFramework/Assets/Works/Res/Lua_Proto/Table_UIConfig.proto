@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+message Row_UIConfig
+{
+    optional int32 id = 1;
+    optional string key = 2;
+    optional int32 layer = 3;
+    optional string resPath = 4;
+    optional int32 destroyOnClose = 5;
+}
+
+message Table_UIConfig
+{
+    repeated Row_UIConfig datas = 1;
+}

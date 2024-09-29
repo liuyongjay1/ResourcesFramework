@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Row_MazeMap
+{
+    optional string key = 1;
+    optional string mapTexture = 2;
+    optional float maxSize = 3;
+}
+
+message Table_MazeMap
+{
+    repeated Row_MazeMap datas = 1;
+}

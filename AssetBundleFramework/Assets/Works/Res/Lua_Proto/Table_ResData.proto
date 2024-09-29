@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+message Row_ResData
+{
+    optional int32 id = 1;
+    optional string name = 2;
+    optional bool dontUnload = 3;
+    optional string path = 4;
+    optional string lowPath = 5;
+    optional int32 isBaseRes = 6;
+    optional int32 assetType = 7;
+}
+
+message Table_ResData
+{
+    repeated Row_ResData datas = 1;
+}

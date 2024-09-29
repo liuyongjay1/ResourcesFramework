@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+message Row_Chapter_7
+{
+    optional string key = 1;
+    optional string nextRound = 2;
+    optional bool saveRound = 3;
+    optional string finishType = 4;
+    optional string enterRoundCode = 5;
+    optional string exitRoundCode = 6;
+    optional bool hasDialog = 7;
+    optional bool hasOption = 8;
+    optional bool hasLivelyRole = 9;
+}
+
+message Table_Chapter_7
+{
+    repeated Row_Chapter_7 datas = 1;
+}

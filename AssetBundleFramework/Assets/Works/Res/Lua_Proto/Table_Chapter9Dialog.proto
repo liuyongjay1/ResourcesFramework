@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+message Row_Chapter9Dialog
+{
+    optional string key = 1;
+    optional string speaker = 2;
+    optional int32 dialogType = 3;
+    optional int32 dialogUIType = 4;
+    optional int32 playAudio = 5;
+    optional string chinese = 6;
+    optional string japan = 7;
+}
+
+message Table_Chapter9Dialog
+{
+    repeated Row_Chapter9Dialog datas = 1;
+}

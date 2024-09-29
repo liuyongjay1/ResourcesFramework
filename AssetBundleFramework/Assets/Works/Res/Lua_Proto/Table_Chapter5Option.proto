@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+message Row_Chapter5Option
+{
+    optional string key = 1;
+    optional int32 optionType = 2;
+    optional string optionFinish = 3;
+    optional bool option1 = 4;
+    optional string option1Code = 5;
+    optional bool option2 = 6;
+    optional string option2Code = 7;
+    optional bool option3 = 8;
+    optional string option3Code = 9;
+}
+
+message Table_Chapter5Option
+{
+    repeated Row_Chapter5Option datas = 1;
+}

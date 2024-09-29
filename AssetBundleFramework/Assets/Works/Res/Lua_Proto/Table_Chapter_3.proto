@@ -1,0 +1,20 @@
+syntax = "proto2";
+
+message Row_Chapter_3
+{
+    optional string key = 1;
+    optional string nextRound = 2;
+    optional bool saveRound = 3;
+    optional string finishType = 4;
+    optional string enterRoundCode = 5;
+    optional string exitRoundCode = 6;
+    optional bool hasScreenEffect = 7;
+    optional bool hasDialog = 8;
+    optional bool hasOption = 9;
+    optional bool hasLivelyRole = 10;
+}
+
+message Table_Chapter_3
+{
+    repeated Row_Chapter_3 datas = 1;
+}

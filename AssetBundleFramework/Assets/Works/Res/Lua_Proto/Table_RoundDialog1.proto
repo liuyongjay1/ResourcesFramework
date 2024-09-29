@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+message Row_RoundDialog1
+{
+    optional string key = 1;
+    optional int32 clickEnterNext = 2;
+    optional int32 speaker = 3;
+    optional int32 dialogUIType = 4;
+    optional int32 playAudio = 5;
+    optional string chinese = 6;
+    optional string japan = 7;
+}
+
+message Table_RoundDialog1
+{
+    repeated Row_RoundDialog1 datas = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Row_OptionText
+{
+    optional string key = 1;
+    optional string chinese = 2;
+    optional string japan = 3;
+}
+
+message Table_OptionText
+{
+    repeated Row_OptionText datas = 1;
+}

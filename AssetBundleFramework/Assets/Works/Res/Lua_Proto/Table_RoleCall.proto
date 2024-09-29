@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Row_RoleCall
+{
+    optional string key = 1;
+    optional string chinese = 2;
+    optional string jap = 3;
+}
+
+message Table_RoleCall
+{
+    repeated Row_RoleCall datas = 1;
+}

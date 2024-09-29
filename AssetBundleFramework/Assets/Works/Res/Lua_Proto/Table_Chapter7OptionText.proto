@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Row_Chapter7OptionText
+{
+    optional string key = 1;
+    optional string chinese = 2;
+    optional string japanese = 3;
+}
+
+message Table_Chapter7OptionText
+{
+    repeated Row_Chapter7OptionText datas = 1;
+}
